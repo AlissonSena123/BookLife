@@ -19,6 +19,8 @@
 body{
     font-family: var(--font);
     background-image: linear-gradient(to bottom, var(--cor_azul_claro) 1%, var(--cor_azul_escuro), rgb(0, 0, 148));
+    max-width: 2000px;
+    min-width: 160px;
 }
 
 header{
@@ -28,7 +30,7 @@ header{
 header h1{
     color: var(--cor_branco);
     font-size: 7em;
-    margin: 0px 0px 20px 10px;
+    margin: auto;
     text-align: center;
 }
 
@@ -97,6 +99,7 @@ main article{
     transition-duration: 0.9s;
     padding: 20px;
     margin: auto;
+    
 }
 
 .assinatura-grupo p{
