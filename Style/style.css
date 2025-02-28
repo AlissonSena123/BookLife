@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+:root{
+
+    --font: "Itim";
+    --cor_azul_claro: #3D90D9;
+    --cor_azul_escuro: #0F88F2;
+    --cor_laranja_claro: #F24607;
+    --cor_laranja_escura: #BF3706;
+    --cor_branco: #F2F2F2;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--font);
+    background-image: linear-gradient(to bottom, var(--cor_azul_claro) 1%, var(--cor_azul_escuro), rgb(0, 0, 148));
+}
+
+header{
+    padding: 10px;
+}
+
+header h1{
+    color: var(--cor_branco);
+    font-size: 7em;
+    margin: 0px 0px 20px 10px;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cor_branco);
+    transition-duration: 0.2s;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+nav a:hover{
+    padding: 20px;
+    background-color: var(--cor_branco);
+    color: var(--cor_azul_claro);
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+main{
+    padding: 20px;
+    text-align: justify;
+    max-width: 2000px;
+    min-width: 260px;
+    margin: 10px;
+    color: var(--cor_branco);
+}
+
+main article{
+    margin: 20px 0px;
+}
+
+#Curiosidade{
+    display: flex;
+    background-color: var(--cor_branco);
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    color: var(--cor_azul_escuro);
+    border-radius: 30px;
+}
+
+#Curiosidade aside{
+    margin: 10px;
+}
+
+
+#Assinaturas{
+    padding: 30px;
+    margin: 10px;
+    color: var(--cor_branco);
+    border-radius: 30px;
+}
+
+.Tipos_de_Assinatura{
+    display: flex;
+}
+
+
+.assinatura-grupo{
+    transition-duration: 0.9s;
+    padding: 20px;
+    margin: auto;
+}
+
+.assinatura-grupo p{
+    text-align: center;
+}
+
+.assinatura-grupo:hover{
+    background-color: var(--cor_branco);
+    color: var(--cor_azul_escuro);
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 30px;
+}
+
+footer{
+    background-color: var(--cor_branco);
+    padding: 10px;
+    margin: 0px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 2em;
+}
+
+footer p:hover{
+    text-decoration: underline;
+    color: #0F88F2;
+}
+
+
+
+
+
+
+
+
+
+
