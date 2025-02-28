@@ -59,7 +59,7 @@ main{
     padding: 20px;
     text-align: justify;
     max-width: 2000px;
-    min-width: 260px;
+    min-width: 160px;
     margin: 10px;
     color: var(--cor_branco);
 }
